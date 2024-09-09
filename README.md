@@ -1,1 +1,1 @@
-# Hi my name is Parker, this is my website yay! Welcome! yowatupbro
+Hi my name is Parker, this is my website!
