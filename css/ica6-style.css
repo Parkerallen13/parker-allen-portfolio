@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background: #ccc;
+  background: white;
   width: 210mm;
   height: 297mm;
   margin: 20px auto;
@@ -44,15 +44,21 @@ h1 {
 /* Your CSS below here */
 
 #top-img {
-    position: fixed;
-    margin: 0px;
-  }
-  #bottom-img {
-    position: fixed;
-    bottom: 0px;
-  }
-  
-  #background {
-    background-image: url(/img/logo.png);
-    background-repeat: no-repeat;
-  }
+  position: fixed;
+  margin: 0px;
+}
+#bottom-img {
+  position: fixed;
+  bottom: 0px;
+}
+
+body {
+  background: linear-gradient(to bottom, #ccc, white, #ccc);
+  border-top: solid 1mm red;
+  border-bottom: solid 1mm red;
+}
+
+h1 {
+  background-image: url(/img/logo.png);
+  background-repeat: no-repeat;
+}
