@@ -1,5 +1,31 @@
 /* Weekly Assignment 5 Stylesheet */
 
-h1 {
-    background-image: url(/img/logo.png);
-  }
+body {
+  background-image: url(/img/9-25-22-CU-Boulder-Womens-Volleyball-vs-ASU-10-scaled.jpg);
+  background-repeat: no-repeat;
+}
+
+.team-name {
+  position: fixed;  
+  width: 20%; 
+  height: 20%; 
+  top: 0;
+  background-color: rgba(0,0,0,.75); 
+  border-style: groove;
+  /* background-image: url(img/CU_score.psd); */
+}
+
+.score{
+  position: fixed;  
+  width: 20%; 
+  height: 20%; 
+  bottom: 0;
+  background-color: rgba(221, 157, 74, 0.75); 
+  border-style: groove;
+}
+
+h3 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 35px;
+}
