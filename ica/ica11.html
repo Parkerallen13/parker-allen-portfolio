@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <h2>Fortune Teller</h2>
+    <div id="fortune"></div>
+    <button onclick="tellFortune(4, 'John', 'Hawaii', 'Dolphin Trainer')">
+      Get Fortune 1
+    </button>
+    <button onclick="tellFortune(10, 'Sera', 'Pitsburg', 'Musician')">
+      Get Fortune 2
+    </button>
+    <button onclick="tellFortune(2, 'Max', 'Ohio', 'Gymnastics teacher')">
+      Get Fortune 3
+    </button>
+
+    <h2>Dog Age Calculator</h2>
+    <div id="dogAge"></div>
+    <input type="number" id="dogAgeInput" placeholder="Enter your dog's age" />
+    <button
+      onclick="calculateDogAge(parseInt(document.getElementById('dogAgeInput').value))"
+    >
+      Calculate Dog Age
+    </button>
+
+    <h2>Reverse Number</h2>
+    <div id="reverseNumber"></div>
+    <input type="number" id="numberInput" placeholder="Enter a number" />
+    <button
+      onclick="reverseNumber(parseInt(document.getElementById('numberInput').value))"
+    >
+      Reverse Number
+    </button>
+
+    <h2>Alphabetical Order</h2>
+    <div id="alphabetOrder"></div>
+    <input type="text" id="wordInput" placeholder="Enter a word" />
+    <button onclick="alphabet(document.getElementById('wordInput').value)">
+      Alphabetize
+    </button>
+
+    <h2>Title Case</h2>
+    <div id="titleCase"></div>
+    <input type="text" id="title" placeholder="Enter a sentence" />
+    <button onclick="titleCase(document.getElementById('title').value)">
+      Convert to Title Case
+    </button>
+
+    <script>
+      function tellFortune(numChildren, partnerName, location, jobTitle) {
+        let fortune = `You will be a ${jobTitle} in ${location}, and married to ${partnerName} with ${numChildren} kids.`;
+        document.getElementById("fortune").innerHTML += `<p>${fortune}</p>`;
+      }
+
+      function calculateDogAge(puppyAge) {
+        let dogAge = puppyAge * 7;
+        let result = `Your doggie is ${dogAge} years old in dog years!`;
+        document.getElementById("dogAge").innerHTML += `<p>${result}</p>`;
+      }
+
+      function reverseNumber(number) {
+        let numString = number.toString();
+        let newNumber = [];
+
+        for (let i = numString.length - 1; i >= 0; i--) {
+          newNumber += numString[i];
+        }
+        document.getElementById(
+          "reverseNumber"
+        ).innerHTML += `<p>${newNumber}</p>`;
+      }
+
+      function alphabet(word) {
+        let newWordArray = [];
+
+        for (let i = 0; i < word.length; i++) {
+          newWordArray.push(word[i]);
+        }
+        newWordArray.sort();
+        let newWord = "";
+        for (let i = 0; i < newWordArray.length; i++) {
+          newWord += newWordArray[i];
+        }
+        document.getElementById(
+          "alphabetOrder"
+        ).innerHTML += `<p>${newWord}</p>`;
+      }
+
+      function titleCase(sentence) {
+        let result = "";
+
+        for (let i = 0; i < sentence.length; i++) {
+          if (i === 0 || sentence[i - 1] === " ") {
+            result += sentence[i].toUpperCase();
+          } else {
+            result += sentence[i];
+          }
+        }
+        document.getElementById("titleCase").innerHTML += `<p>${result}</p>`;
+      }
+    </script>
+  </body>
+</html>
