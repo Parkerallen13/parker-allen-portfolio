@@ -73,59 +73,37 @@ body {
   color: #486165;
 }
 
-/* .box-container {
-  display: flex;
-  justify-content: space-evenly;
-  min-height: 700px;
-  align-items: center;
-  flex-wrap: wrap;
-} */
-
-/* .box {
-  height: 400px;
-  width: 500px;
-  background-color: #7a6d62;
-  text-align: center;
-  color: #ffffff;
-  font-size: 26px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-} */
-
 .box-container-marketing {
   display: flex;
   justify-content: space-evenly;
-  min-height: 3000px;
+  min-height: 2700px;
   align-items: center;
   flex-wrap: wrap;
-  margin: 100px;
+  margin: 50px;
 }
 
 .box-container-webDev {
   display: flex;
   justify-content: space-evenly;
-  min-height: 2000px;
+  min-height: 1800px;
   align-items: center;
   flex-wrap: wrap;
-  margin: 100px;
+  margin: 50px;
 }
 
 .box-container-hobbies {
   display: flex;
   justify-content: space-evenly;
-  min-height: 2000px;
+  min-height: 1800px;
   align-items: center;
   flex-wrap: wrap;
-  margin: 100px;
+  margin: 50px;
 }
 
 .box-container-marketing-hl{
   display: flex;
   justify-content: space-evenly;
-  min-height: 2000px;
+  min-height: 1800px;
   align-items: center;
   flex-wrap: wrap;
   margin: 100px;
@@ -133,7 +111,7 @@ body {
 
 .box-marketing {
   height: 800px;
-  width: 700px;
+  width: 600px;
   background-color: #7a6d62;
   text-align: center;
   color: #ffffff;
