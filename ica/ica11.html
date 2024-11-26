@@ -1,50 +1,86 @@
 <!DOCTYPE html>
 <html>
-  <head></head>
+  <head>
+    <style>
+      body {
+        background-color: rgb(234, 226, 219);
+        display: flex;
+        flex-direction: column;
+        max-width: 200px;
+        text-align: center;
+        justify-content: center;
+      }
+      button {
+        color: rgb(79, 48, 10);
+        padding: 10px;
+      }
+      .container {
+        display: flex; 
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
   <body>
-    <h2>Fortune Teller</h2>
-    <div id="fortune"></div>
-    <button onclick="tellFortune(4, 'John', 'Hawaii', 'Dolphin Trainer')">
-      Get Fortune 1
-    </button>
-    <button onclick="tellFortune(10, 'Sera', 'Pitsburg', 'Musician')">
-      Get Fortune 2
-    </button>
-    <button onclick="tellFortune(2, 'Max', 'Ohio', 'Gymnastics teacher')">
-      Get Fortune 3
-    </button>
+    <div class="container">
+      <div class="item">
+        <h2>Fortune Teller</h2>
+        <div id="fortune"></div>
+        <button onclick="tellFortune(4, 'John', 'Hawaii', 'Dolphin Trainer')">
+          Get Fortune 1
+        </button>
+        <button onclick="tellFortune(10, 'Sera', 'Pitsburg', 'Musician')">
+          Get Fortune 2
+        </button>
+        <button onclick="tellFortune(2, 'Max', 'Ohio', 'Gymnastics teacher')">
+          Get Fortune 3
+        </button>
+      </div>
 
-    <h2>Dog Age Calculator</h2>
-    <div id="dogAge"></div>
-    <input type="number" id="dogAgeInput" placeholder="Enter your dog's age" />
-    <button
-      onclick="calculateDogAge(parseInt(document.getElementById('dogAgeInput').value))"
-    >
-      Calculate Dog Age
-    </button>
+      <div class="item">
+        <h2>Dog Age Calculator</h2>
+        <div id="dogAge"></div>
+        <input
+          type="number"
+          id="dogAgeInput"
+          placeholder="Enter your dog's age"
+        />
+        <button
+          onclick="calculateDogAge(parseInt(document.getElementById('dogAgeInput').value))"
+        >
+          Calculate Dog Age
+        </button>
 
-    <h2>Reverse Number</h2>
-    <div id="reverseNumber"></div>
-    <input type="number" id="numberInput" placeholder="Enter a number" />
-    <button
-      onclick="reverseNumber(parseInt(document.getElementById('numberInput').value))"
-    >
-      Reverse Number
-    </button>
+        <div class="item">
+        <h2>Reverse Number</h2>
+        <div id="reverseNumber"></div>
+        <input type="number" id="numberInput" placeholder="Enter a number" />
+        <button
+          onclick="reverseNumber(parseInt(document.getElementById('numberInput').value))"
+        >
+          Reverse Number
+        </button>
+      </div>
 
-    <h2>Alphabetical Order</h2>
-    <div id="alphabetOrder"></div>
-    <input type="text" id="wordInput" placeholder="Enter a word" />
-    <button onclick="alphabet(document.getElementById('wordInput').value)">
-      Alphabetize
-    </button>
+      <div class="item">
+        <h2>Alphabetical Order</h2>
+        <div id="alphabetOrder"></div>
+        <input type="text" id="wordInput" placeholder="Enter a word" />
+        <button onclick="alphabet(document.getElementById('wordInput').value)">
+          Alphabetize
+        </button>
+      </div>
 
-    <h2>Title Case</h2>
-    <div id="titleCase"></div>
-    <input type="text" id="title" placeholder="Enter a sentence" />
-    <button onclick="titleCase(document.getElementById('title').value)">
-      Convert to Title Case
-    </button>
+      <div class="item">
+        <h2>Title Case</h2>
+        <div id="titleCase"></div>
+        <input type="text" id="title" placeholder="Enter a sentence" />
+        <button onclick="titleCase(document.getElementById('title').value)">
+          Convert to Title Case
+        </button>
+      </div>
+    </div>
 
     <script src="ica11.js"></script>
   </body>
