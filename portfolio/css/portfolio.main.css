@@ -1,15 +1,41 @@
 body {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
+  /* background-color: rgb(225, 221, 223); */
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
-  background-color: hsl(0, 0%, 96%);
+}
+
+p {
+  font-size: 20px;
+  max-width: 1000px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+a {
+  font-size: 25px;
 }
 
 .nav-bar {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: #baa18c;
+  background-color: rgb(177, 189, 190);
 }
 
 .nav-item {
@@ -29,7 +55,7 @@ body {
 }
 
 .header h1 {
-  font-size: 100px;
+  font-size: 80px;
   margin-top: 100px;
   margin-right: 300px;
   color: #3b2c20;
@@ -42,17 +68,6 @@ body {
   margin: 50px;
   justify-content: space-evenly;
   border: 5px solid #baa18c;
-
-}
-
-.about-me p{
-  font-size: 25px;
-  margin: 100px;
-  max-width: 1000px;
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
 }
 
 .about-me img {
@@ -60,7 +75,6 @@ body {
 }
 
 .header-marketing h1 {
-  font-size: 80px;
   color: #3b2c20;
   margin: 50px;
   display: flex;
@@ -68,39 +82,48 @@ body {
 }
 
 .header h3 {
-  font-size: 40px;
   margin-left: 200px;
   color: #486165;
 }
 
 .box-container-marketing {
+  min-height: 2700px;
+
   display: flex;
   justify-content: space-evenly;
-  min-height: 2700px;
   align-items: center;
   flex-wrap: wrap;
   margin: 50px;
 }
 
-.box-container-webDev {
+.box-container-webdev {
+  min-height: 1200px;
+
   display: flex;
   justify-content: space-evenly;
-  min-height: 1200px;
   align-items: center;
   flex-wrap: wrap;
   margin: 50px;
+
+
 }
 
 .box-container-hobbies {
+  min-height: 1800px;
+
   display: flex;
   justify-content: space-evenly;
-  min-height: 1800px;
   align-items: center;
   flex-wrap: wrap;
   margin: 50px;
+
 }
 
-.box-container-marketing-hl{
+.box-container-hobbies img{
+  margin: 20px;
+}
+
+.box-container-marketing-hl {
   display: flex;
   justify-content: space-evenly;
   min-height: 1800px;
@@ -112,10 +135,9 @@ body {
 .box-marketing {
   height: 800px;
   width: 600px;
-  background-color: #7a6d62;
+  background-color: #aa9686;
   text-align: center;
   color: #ffffff;
-  font-size: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -125,10 +147,9 @@ body {
 .box-webdev {
   height: 400px;
   width: 400px;
-  background-color: #7a6d62;
+  background-color: #aa9686;
   text-align: center;
   color: #ffffff;
-  font-size: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -136,36 +157,35 @@ body {
   padding: 100px;
 }
 
-.box-webdev img{
+.box-webdev img {
   height: 300px;
 }
 
+a {
+  color: #3B3936;
+}
 
 .collage-container {
-  display:flex;
+  display: flex;
   flex-direction: row;
   max-height: 800px;
   max-width: 600px;
-
 }
 
-.collage-img img{
+.collage-img img {
   display: flex;
   flex-wrap: wrap;
   height: 220px;
   margin: 10px;
-
 }
 
-.collage-img{
+.collage-img {
   display: flex;
   flex-wrap: wrap;
   margin: 10px;
-
 }
 
-
-.box-marketing img{
+.box-marketing img {
   max-width: 500px;
 }
 
@@ -184,7 +204,6 @@ body {
 }
 
 .subject-title h2 {
-  font-size: 50px;
   display: flex;
   justify-content: center;
   color: #3b2c20;
@@ -200,7 +219,6 @@ body {
 }
 
 .projects h1 {
-  font-size: 50px;
   color: #3b2c20;
 }
 
@@ -272,5 +290,3 @@ body {
   flex-shrink: 0;
   width: 0;
 }
-
-
