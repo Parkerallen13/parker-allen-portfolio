@@ -1,13 +1,14 @@
 body {
-  /* background-color: rgb(225, 221, 223); */
   font-family: "Parkinsans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
+  background-color: azure;
 }
 
+
 p {
-  font-size: 20px;
+  font-size: 25px;
   max-width: 1000px;
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
@@ -35,7 +36,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: rgb(177, 189, 190);
+  background-color: rgb(75, 72, 85);
 }
 
 .nav-item {
@@ -47,18 +48,13 @@ a {
   font-size: 30px;
 }
 
-.header {
-  justify-content: center;
-  border: 5px solid #baa18c;
-  display: flex;
-  margin: 50px;
-}
-
 .header h1 {
   font-size: 80px;
-  margin-top: 100px;
-  margin-right: 300px;
+  display: flex; 
+  flex-direction: row;
+  justify-content: center;
   color: #3b2c20;
+  margin: 50px;
 }
 
 .about-me {
@@ -83,11 +79,11 @@ a {
 
 .header h3 {
   margin-left: 200px;
-  color: #486165;
+  color: #75888b;
 }
 
 .box-container-marketing {
-  min-height: 2700px;
+  min-height: 1800px;
 
   display: flex;
   justify-content: space-evenly;
@@ -97,7 +93,7 @@ a {
 }
 
 .box-container-webdev {
-  min-height: 1200px;
+  min-height: 900px;
 
   display: flex;
   justify-content: space-evenly;
@@ -109,7 +105,18 @@ a {
 }
 
 .box-container-hobbies {
-  min-height: 1800px;
+  max-height: 4000px;
+  min-height: 1900px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+
+.box-container-hobbies-photography {
+  max-height: 4000px;
+  min-height: 800px;
 
   display: flex;
   justify-content: space-evenly;
@@ -121,6 +128,12 @@ a {
 
 .box-container-hobbies img{
   margin: 20px;
+  max-height: 2000px;
+}
+
+.box-marketing-photography img{
+  margin: 20px;
+  max-height: 2000px;
 }
 
 .box-container-marketing-hl {
@@ -134,6 +147,30 @@ a {
 
 .box-marketing {
   height: 800px;
+  width: 600px;
+  background-color: #aa9686;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.box-marketing {
+  height: 800px;
+  width: 600px;
+  background-color: #aa9686;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.box-marketing-photography {
+  height: 600px;
   width: 600px;
   background-color: #aa9686;
   text-align: center;
@@ -162,7 +199,7 @@ a {
 }
 
 a {
-  color: #3B3936;
+  color: lightyellow;
 }
 
 .collage-container {
@@ -289,4 +326,46 @@ a {
   content: "";
   flex-shrink: 0;
   width: 0;
+}
+
+@media (max-width: 600px) {
+  .box-marketing,
+  .box-webdev {
+    height: auto;
+    width: 90%;
+  }
+
+  .box-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .box {
+    margin: 10px;
+  }
+
+  .header h1 {
+    font-size: 40px;
+    margin: 30px 0;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  h1, h2 {
+    font-size: 25px;
+  }
+
+  .nav-item {
+    margin: 10px;
+  }
+
+  .nav-item a {
+    font-size: 20px;
+  }
+
+  .scroll img {
+    height: 150px;
+  }
 }
