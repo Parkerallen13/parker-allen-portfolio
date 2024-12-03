@@ -34,6 +34,10 @@ h2 {
   font-size: 30px;
 }
 
+.social-box a {
+  color: lightyellow;
+}
+
 a {
   font-size: 25px;
   color: darkcyan;
@@ -444,6 +448,10 @@ a {
   p {
     font-size: 16px;
   }
+
+  .footer p {
+    width: 50%;
+  }
 }
 
 @media (max-width: 1170px) {
@@ -480,5 +488,9 @@ a {
 
   p {
     font-size: 18px;
+  }
+
+  .footer p {
+    width: 50%;
   }
 }
