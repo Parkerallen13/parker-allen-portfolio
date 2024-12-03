@@ -413,7 +413,7 @@ a {
   }
 
   .about-me-item p {
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     margin: 10px;
   }
@@ -429,7 +429,7 @@ a {
   }
 
   .nav-item a {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .scroll {
@@ -438,6 +438,10 @@ a {
 
   .scroll img {
     height: 120px;
+  }
+
+  p {
+    font-size: 16px;
   }
 }
 
@@ -448,8 +452,14 @@ a {
   }
 
   .about-me-item p {
-    font-size: 16px;
+    font-size: 18px;
     padding: 5px;
+  }
+
+  .nav-bar {
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
   }
 
   .nav-item a {
@@ -458,5 +468,9 @@ a {
 
   .scroll img {
     height: 100px;
+  }
+
+  p {
+    font-size: 18px;
   }
 }
