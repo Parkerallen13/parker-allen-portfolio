@@ -199,7 +199,7 @@ a {
 }
 
 .social-box {
-  height: 500px;
+  height: 800px;
   width: 600px;
   background-color: rgb(75, 72, 85);
   text-align: center;
@@ -209,6 +209,7 @@ a {
   align-items: center;
   margin: 50px;
   justify-content: center;
+  align-items: center;
 }
 
 .box-marketing-photography {
@@ -267,9 +268,11 @@ a {
   max-width: 500px;
 }
 
+
+
 .social-box img {
-  max-width: 500px;
-  max-height: 300px;
+  max-width: 450px;
+  max-height: 800px;
 }
 
 
