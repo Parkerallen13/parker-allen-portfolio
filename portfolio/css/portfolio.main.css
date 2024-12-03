@@ -36,7 +36,7 @@ h2 {
 
 a {
   font-size: 25px;
-  color: lightseagreen
+  color: darkcyan;
 }
 
 .nav-bar {
@@ -441,7 +441,7 @@ a {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1170px) {
   .header h1 {
     font-size: 40px;
     margin: 10px;
@@ -452,8 +452,14 @@ a {
     padding: 5px;
   }
 
+  .nav-bar {
+    flex-direction: column;
+    align-items: center;
+    /* padding: 10px; */
+  }
+
   .nav-item a {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .scroll img {
