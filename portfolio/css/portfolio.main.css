@@ -419,7 +419,7 @@ a {
   }
 
   .nav-bar {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     padding: 10px;
   }
@@ -453,7 +453,7 @@ a {
   }
 
   .nav-item a {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .scroll img {
