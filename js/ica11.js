@@ -1,51 +1,46 @@
 function tellFortune(numChildren, partnerName, location, jobTitle) {
-    let fortune = `You will be a ${jobTitle} in ${location}, and married to ${partnerName} with ${numChildren} kids.`;
-    document.getElementById("fortune").innerHTML += `<p>${fortune}</p>`;
+  let fortune = `You will be a ${jobTitle} in ${location}, and married to ${partnerName} with ${numChildren} kids.`;
+  document.getElementById("fortune").innerHTML += `<p>${fortune}</p>`;
+}
+
+function calculateDogAge(puppyAge) {
+  if (Number.isNaN(puppyAge) || puppyAge < 0) {
+      document.getElementById("dogAge").innerHTML += `<p>Please enter a valid age!</p>`;
+      return;
   }
+  let dogAge = puppyAge * 7;
+  let result = `Your doggie is ${dogAge} years old in dog years!`;
+  document.getElementById("dogAge").innerHTML += `<p>${result}</p>`;
+}
 
-  function calculateDogAge(puppyAge) {
-    let dogAge = puppyAge * 7;
-    let result = `Your doggie is ${dogAge} years old in dog years!`;
-    document.getElementById("dogAge").innerHTML += `<p>${result}</p>`;
+function reverseNumber(number) {
+  if (Number.isNaN(number)) {
+      document.getElementById("reverseNumber").innerHTML += `<p>Please enter a valid number!</p>`;
+      return;
   }
+  let numString = number.toString();
+  let newNumber = numString.split("").reverse().join("");
+  document.getElementById("reverseNumber").innerHTML += `<p>${newNumber}</p>`;
+}
 
-  function reverseNumber(number) {
-    let numString = number.toString();
-    let newNumber = [];
-
-    for (let i = numString.length - 1; i >= 0; i--) {
-      newNumber += numString[i];
-    }
-    document.getElementById(
-      "reverseNumber"
-    ).innerHTML += `<p>${newNumber}</p>`;
+function alphabet(word) {
+  if (!word.trim()) {
+      document.getElementById("alphabetOrder").innerHTML += `<p>Please enter a valid word!</p>`;
+      return;
   }
+  let newWord = word.split("").sort().join("");
+  document.getElementById("alphabetOrder").innerHTML += `<p>${newWord}</p>`;
+}
 
-  function alphabet(word) {
-    let newWordArray = [];
-
-    for (let i = 0; i < word.length; i++) {
-      newWordArray.push(word[i]);
-    }
-    newWordArray.sort();
-    let newWord = "";
-    for (let i = 0; i < newWordArray.length; i++) {
-      newWord += newWordArray[i];
-    }
-    document.getElementById(
-      "alphabetOrder"
-    ).innerHTML += `<p>${newWord}</p>`;
+function titleCase(sentence) {
+  if (!sentence.trim()) {
+      document.getElementById("titleCase").innerHTML += `<p>Please enter a valid sentence!</p>`;
+      return;
   }
-
-  function titleCase(sentence) {
-    let result = "";
-
-    for (let i = 0; i < sentence.length; i++) {
-      if (i === 0 || sentence[i - 1] === " ") {
-        result += sentence[i].toUpperCase();
-      } else {
-        result += sentence[i];
-      }
-    }
-    document.getElementById("titleCase").innerHTML += `<p>${result}</p>`;
-  }
+  let result = sentence
+      .toLowerCase()
+      .split(" ")
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" ");
+  document.getElementById("titleCase").innerHTML += `<p>${result}</p>`;
+}
