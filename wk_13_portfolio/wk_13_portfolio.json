@@ -3,25 +3,67 @@
         {
             "name": "Story Generator",
             "subdomain": "story_generator",
-            "description": "Made using JavaScript, this code creates random stories by replacing placeholders with random values and user input.",
+            "subtitle": null,
+            "abstract": "Made using JavaScript, this code creates random stories by replacing placeholders with random values and user input.",
+            "category": null,
             "mainimg": ["wk_13_portfolio/images/webdev/webdev(1).jpg", "Story Generator Image"]
         },
         {
             "name": "Joke Generator",
             "subdomain": "joke_generator",
-            "description": "Made using JavaScript, this code fetches a random joke from an API and displays it on the webpage.",
+            "subtitle": null,
+            "abstract": "Made using JavaScript, this code fetches a random joke from an API and displays it on the webpage.",
+            "category": null,
             "mainimg": ["wk_13_portfolio/images/webdev/webdev(2).jpg", "Joke Generator Image"]
         },
         {
             "name": "Comic Generator",
             "subdomain": "comic_generator",
-            "description": "Comic Generator with JSON in JavaScript, styling incorporated through CSS.",
+            "subtitle": null,
+            "abstract": "Comic Generator with JSON in JavaScript, styling incorporated through CSS.",
+            "category": null,
             "mainimg": ["wk_13_portfolio/images/webdev/webdev(3).jpg", "Comic Generator Image"]
         },
         {
             "name": "Function Methods",
             "subdomain": "function_methods",
-            "description": "Story Generator - Functions in JavaScript, styled by CSS.",
+            "subtitle": null,
+            "abstract": "Story Generator - Functions in JavaScript, styled by CSS.",
+            "category": null,
+            "mainimg": ["wk_13_portfolio/images/webdev/webdev(4).jpg", "Function Methods Image"]
+        }
+    ],
+    "projects-marketing": [
+        {
+            "name": "Rush Promotional Posters",
+            "subdomain": "rush_promotion",
+            "subtitle": null,
+            "abstract": "Made using PhotoShop.",
+            "category": null,
+            "mainimg": ["wk_13_portfolio/images/ktp/ktp(5).jpg", "Rush Promotional Posters Image"]
+        },
+        {
+            "name": "Joke Generator",
+            "subdomain": "joke_generator",
+            "subtitle": null,
+            "abstract": "Made using JavaScript, this code fetches a random joke from an API and displays it on the webpage.",
+            "category": null,
+            "mainimg": ["wk_13_portfolio/images/webdev/webdev(2).jpg", "Joke Generator Image"]
+        },
+        {
+            "name": "Comic Generator",
+            "subdomain": "comic_generator",
+            "subtitle": null,
+            "abstract": "Comic Generator with JSON in JavaScript, styling incorporated through CSS.",
+            "category": null,
+            "mainimg": ["wk_13_portfolio/images/webdev/webdev(3).jpg", "Comic Generator Image"]
+        },
+        {
+            "name": "Function Methods",
+            "subdomain": "function_methods",
+            "subtitle": null,
+            "abstract": "Story Generator - Functions in JavaScript, styled by CSS.",
+            "category": null,
             "mainimg": ["wk_13_portfolio/images/webdev/webdev(4).jpg", "Function Methods Image"]
         }
     ]

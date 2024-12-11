@@ -1,0 +1,170 @@
+{
+    "marketing": 
+    [
+      {
+        "images": [
+          "/portfolio/images/ktp/rushPosterINTEREST copy.jpeg"
+        ],
+        "description": "Rush Promotional Poster - Photoshop"
+      },
+      {
+        "images": [
+          "/portfolio/images/hyperloop/Pink Bold Modern Music Event Announcement Poster (Billboard (Square)).jpg"
+        ],
+        "description": "Networking Workshop Flyer - Canva"
+      },
+      {
+        "images": [
+          "/portfolio/images/ktp/1 copy 2.jpeg"
+        ],
+        "description": "Informational Instagram Post - Canva"
+      },
+      {
+        "images": [
+          "/portfolio/images/ktp/rush1 copy 2.jpeg"
+        ],
+        "description": "Rush Instagram Post - Canva"
+      },
+      {
+        "images": [
+          "/portfolio/images/hyperloop/Screenshot 2024-12-02 at 6.02.05 PM.png",
+          "/portfolio/images/hyperloop/Screenshot 2024-12-02 at 10.04.16 PM.png"
+        ],
+        "description": "See More on Social Media",
+        "links": [
+          {
+            "url": "https://www.instagram.com/ktpboulder/",
+            "text": "Visit Instagram"
+          },
+          {
+            "url": "https://www.linkedin.com/company/ktpboulder/?viewAsMember=true",
+            "text": "Visit LinkedIn"
+          }
+        ]
+      },
+      {
+        "images": [
+          "/portfolio/images/hyperloop/1.jpg"
+        ],
+        "description": "Rush Instagram Post - Canva"
+      },
+      {
+        "images": [
+          "/portfolio/images/hyperloop/1.jpg-intro.jpg"
+        ],
+        "description": "Rush Instagram Post - Canva"
+      },
+      {
+        "images": [
+          "/portfolio/images/hyperloop/Screenshot 2024-11-15 at 3.36.42 PM.png"
+        ],
+        "description": "Rush Instagram Post - Canva"
+      },
+      {
+        "images": [
+          "/portfolio/images/ktp/rush1 copy 2.jpeg"
+        ],
+        "description": "Rush Instagram Post - PhotoShop"
+      },
+      {
+        "images": [
+          "/portfolio/images/hyperloop/Screenshot 2024-12-02 at 6.02.13 PM.png",
+          "/portfolio/images/hyperloop/Screenshot 2024-12-02 at 10.04.00 PM.png"
+        ],
+        "description": "See More on Social Media",
+        "links": [
+          {
+            "url": "https://www.instagram.com",
+            "text": "Visit Instagram"
+          },
+          {
+            "url": "https://www.linkedin.com/company/cu-hyperloop/?viewAsMember=true",
+            "text": "Visit LinkedIn"
+          }
+        ]
+      }
+
+    ],
+    "hobbies": [
+      {
+        "images": [
+          "/portfolio/images/IMG_8405.jpeg",
+          "/portfolio/images/IMG_8447.jpeg",
+          "/portfolio/images/IMG_8448.jpeg"
+        ],
+        "description": "Water Color Paintings"
+      },
+      {
+        "images": [
+          "/portfolio/images/IMG_8393.jpeg",
+          "/portfolio/images/IMG_8449.jpeg",
+          "/portfolio/images/IMG_8450.jpeg",
+          "/portfolio/images/IMG_8453.jpeg"
+        ],
+        "description": "Acrylic Paintings"
+      },
+      {
+        "images": [
+          "/portfolio/images/IMG_0119.JPG",
+          "/portfolio/images/IMG_0371.JPG",
+          "/portfolio/images/IMG_0373.JPG"
+        ],
+        "description": "Digital Drawings"
+      },
+      {
+        "images": [
+          "/portfolio/images/Screenshot 2024-11-26 at 6.35.49 PM.png"
+        ],
+        "description": "Photo Collage",
+        "links": [
+          {
+            "url": "https://parkerallen13.github.io/wa/wa7.html",
+            "text": "View Full Collage"
+          }
+        ]
+      }
+    ],
+    "webdev": [
+      {
+        "images": ["/img/Screenshot 2024-11-25 at 9.17.41 PM.png"],
+        "description": "Story Generator made using JavaScript.",
+        "links": [
+          {
+            "url": "https://parkerallen13.github.io/wa/wa10.html",
+            "text": "Try the Story Generator"
+          }
+        ]
+      },
+      {
+        "images": ["/img/Screenshot 2024-11-25 at 10.12.44 PM.png"],
+        "description": "Joke Generator using JavaScript and API.",
+        "links": [
+          {
+            "url": "https://parkerallen13.github.io/wa/wk_12.html",
+            "text": "Generate a Random Joke"
+          }
+        ]
+      },
+      {
+        "images": ["/img/Screenshot 2024-11-25 at 9.17.59 PM.png"],
+        "description": "Comic Generator using JSON and JavaScript.",
+        "links": [
+          {
+            "url": "https://parkerallen13.github.io/wa/a12/a12.html",
+            "text": "View Comic Generator"
+          }
+        ]
+      },
+      {
+        "images": ["/img/Screenshot 2024-11-25 at 10.28.27 PM.png"],
+        "description": "Function Methods - JavaScript and CSS.",
+        "links": [
+          {
+            "url": "https://parkerallen13.github.io/ica/ica11.html",
+            "text": "Explore Function Methods"
+          }
+        ]
+      }
+    ]
+  }
+  
