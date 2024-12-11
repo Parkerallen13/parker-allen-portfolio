@@ -192,7 +192,7 @@ a:hover {
   }
 }
 
-@media (max-width: 393px) {
+@media (max-width: 768px) {
   .header h1,
   .header-marketing h1 {
     font-size: 40px;
@@ -200,8 +200,17 @@ a:hover {
     text-align: center;
   }
 
+  .about-me {
+    display: flex;
+    flex-direction: column;
+  }
+
   .about-me img {
     max-width: 200px;
+  }
+
+  .about-me p {
+    max-width: 400px;
   }
 
   .nav-bar {
