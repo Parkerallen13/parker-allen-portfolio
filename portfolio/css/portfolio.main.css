@@ -16,14 +16,21 @@ body {
   align-items: center;
   margin-left: 100px;
   margin-right: 100px;
+  margin-bottom: 100px;
+  background-color: lightgray;
+  text-align: center;
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
 
+}
+
+.about-me img {
+max-width: 350px;
 }
 
 .about-me-item {
   margin: 80px;
-}
-
-#intro {
   font-size: 25px;
   line-height: 1.6;
 }
@@ -119,12 +126,10 @@ a:hover {
   flex-wrap: wrap;
   margin: 50px;
   gap: 80px;
-  /* max-width: 2000px; */
 }
 
 .box {
   height: auto;
-  /* width: calc(33% - 20px); */
   max-width: 500px;
   background-color: lightgray;
   text-align: center;
@@ -160,6 +165,8 @@ a:hover {
   border-radius: 5px;
 }
 
+/* scroll settings */
+
 .scroll {
   position: relative;
   width: 100%;
@@ -183,6 +190,7 @@ a:hover {
   justify-content: flex-start;
 }
 
+
 @keyframes scrollText {
   0% {
     transform: translateX(0);
@@ -191,6 +199,8 @@ a:hover {
     transform: translateX(-50%);
   }
 }
+
+/* responsiveness settings */
 
 @media (max-width: 768px) {
   p {
