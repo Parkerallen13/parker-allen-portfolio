@@ -178,6 +178,21 @@
     {
       "images": [
         {
+          "src": "/portfolio/images/Screenshot 2025-04-28 at 4.34.30 PM.png",
+          "alt": "a screenshot of a figma app front page"
+        }
+      ],
+      "description": "Resturaunt Website Mock-up made using Figma",
+      "links": [
+        {
+          "url": "https://www.figma.com/proto/3AHENCpWvmMfSDFgZhoIUV/Central-Market?page-id=0%3A1&node-id=66-143&p=f&viewport=-3%2C-167%2C0.19&t=tdqEhK6flU1xBVwm-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A3",
+          "text": "Site Demo"
+        }
+      ]
+    },
+    {
+      "images": [
+        {
           "src": "/img/Screenshot 2024-11-25 at 9.17.41 PM.png",
           "alt": "a screenshot of a Story Generator site that is dark blue with a light blue background and text of a random story that was generated"
         }
